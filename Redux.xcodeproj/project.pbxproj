@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE81DC8728E8174D00F9D97F /* ReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DC8628E8174D00F9D97F /* ReduxApp.swift */; };
+		CE81DC8928E8174D00F9D97F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DC8828E8174D00F9D97F /* ContentView.swift */; };
+		CE81DC8B28E8174E00F9D97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE81DC8A28E8174E00F9D97F /* Assets.xcassets */; };
+		CE81DC8E28E8174E00F9D97F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE81DC8D28E8174E00F9D97F /* Preview Assets.xcassets */; };
+		CE81DC9528E8176E00F9D97F /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DC9428E8176E00F9D97F /* Reducer.swift */; };
+		CE81DC9728E82F1400F9D97F /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DC9628E82F1400F9D97F /* Store.swift */; };
+		CE81DC9928E8374E00F9D97F /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DC9828E8374E00F9D97F /* Actions.swift */; };
+		CE81DCBF28E838DE00F9D97F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DCBE28E838DE00F9D97F /* AppState.swift */; };
+		CE81DCC128E8391600F9D97F /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DCC028E8391600F9D97F /* AppReducer.swift */; };
+		CE81DCC728E8487200F9D97F /* GiphyDomainLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81DCC328E8487200F9D97F /* GiphyDomainLayer.xcframework */; };
+		CE81DCC828E8487200F9D97F /* URLRequestDataLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81DCC428E8487200F9D97F /* URLRequestDataLayer.xcframework */; };
+		CE81DCC928E8487200F9D97F /* GiphyDataLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81DCC528E8487200F9D97F /* GiphyDataLayer.xcframework */; };
+		CE81DCCA28E8487200F9D97F /* URLRequestDataSourceLayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81DCC628E8487200F9D97F /* URLRequestDataSourceLayer.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE81DC8328E8174D00F9D97F /* Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE81DC8628E8174D00F9D97F /* ReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxApp.swift; sourceTree = "<group>"; };
+		CE81DC8828E8174D00F9D97F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE81DC8A28E8174E00F9D97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE81DC8D28E8174E00F9D97F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE81DC9428E8176E00F9D97F /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		CE81DC9628E82F1400F9D97F /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CE81DC9828E8374E00F9D97F /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		CE81DCBE28E838DE00F9D97F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		CE81DCC028E8391600F9D97F /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		CE81DCC328E8487200F9D97F /* GiphyDomainLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GiphyDomainLayer.xcframework; sourceTree = "<group>"; };
+		CE81DCC428E8487200F9D97F /* URLRequestDataLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = URLRequestDataLayer.xcframework; sourceTree = "<group>"; };
+		CE81DCC528E8487200F9D97F /* GiphyDataLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GiphyDataLayer.xcframework; sourceTree = "<group>"; };
+		CE81DCC628E8487200F9D97F /* URLRequestDataSourceLayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = URLRequestDataSourceLayer.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE81DC8028E8174D00F9D97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE81DCCA28E8487200F9D97F /* URLRequestDataSourceLayer.xcframework in Frameworks */,
+				CE81DCC928E8487200F9D97F /* GiphyDataLayer.xcframework in Frameworks */,
+				CE81DCC728E8487200F9D97F /* GiphyDomainLayer.xcframework in Frameworks */,
+				CE81DCC828E8487200F9D97F /* URLRequestDataLayer.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE81DC7A28E8174D00F9D97F = {
+			isa = PBXGroup;
+			children = (
+				CE81DCC228E8483E00F9D97F /* Frameworks */,
+				CE81DC8528E8174D00F9D97F /* Redux */,
+				CE81DC8428E8174D00F9D97F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE81DC8428E8174D00F9D97F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE81DC8328E8174D00F9D97F /* Redux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE81DC8528E8174D00F9D97F /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				CE81DC8628E8174D00F9D97F /* ReduxApp.swift */,
+				CE81DC8828E8174D00F9D97F /* ContentView.swift */,
+				CE81DC9428E8176E00F9D97F /* Reducer.swift */,
+				CE81DC9628E82F1400F9D97F /* Store.swift */,
+				CE81DC9828E8374E00F9D97F /* Actions.swift */,
+				CE81DCBE28E838DE00F9D97F /* AppState.swift */,
+				CE81DCC028E8391600F9D97F /* AppReducer.swift */,
+				CE81DC8A28E8174E00F9D97F /* Assets.xcassets */,
+				CE81DC8C28E8174E00F9D97F /* Preview Content */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		CE81DC8C28E8174E00F9D97F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE81DC8D28E8174E00F9D97F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE81DCC228E8483E00F9D97F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE81DCC528E8487200F9D97F /* GiphyDataLayer.xcframework */,
+				CE81DCC328E8487200F9D97F /* GiphyDomainLayer.xcframework */,
+				CE81DCC428E8487200F9D97F /* URLRequestDataLayer.xcframework */,
+				CE81DCC628E8487200F9D97F /* URLRequestDataSourceLayer.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE81DC8228E8174D00F9D97F /* Redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE81DC9128E8174E00F9D97F /* Build configuration list for PBXNativeTarget "Redux" */;
+			buildPhases = (
+				CE81DC7F28E8174D00F9D97F /* Sources */,
+				CE81DC8028E8174D00F9D97F /* Frameworks */,
+				CE81DC8128E8174D00F9D97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Redux;
+			productName = Redux;
+			productReference = CE81DC8328E8174D00F9D97F /* Redux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE81DC7B28E8174D00F9D97F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CE81DC8228E8174D00F9D97F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CE81DC7E28E8174D00F9D97F /* Build configuration list for PBXProject "Redux" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE81DC7A28E8174D00F9D97F;
+			productRefGroup = CE81DC8428E8174D00F9D97F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE81DC8228E8174D00F9D97F /* Redux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE81DC8128E8174D00F9D97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE81DC8E28E8174E00F9D97F /* Preview Assets.xcassets in Resources */,
+				CE81DC8B28E8174E00F9D97F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE81DC7F28E8174D00F9D97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE81DC9928E8374E00F9D97F /* Actions.swift in Sources */,
+				CE81DC8928E8174D00F9D97F /* ContentView.swift in Sources */,
+				CE81DCC128E8391600F9D97F /* AppReducer.swift in Sources */,
+				CE81DC8728E8174D00F9D97F /* ReduxApp.swift in Sources */,
+				CE81DCBF28E838DE00F9D97F /* AppState.swift in Sources */,
+				CE81DC9528E8176E00F9D97F /* Reducer.swift in Sources */,
+				CE81DC9728E82F1400F9D97F /* Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE81DC8F28E8174E00F9D97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE81DC9028E8174E00F9D97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE81DC9228E8174E00F9D97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Redux/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HZQ3M82FA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seunghun.Redux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE81DC9328E8174E00F9D97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Redux/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HZQ3M82FA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seunghun.Redux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE81DC7E28E8174D00F9D97F /* Build configuration list for PBXProject "Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE81DC8F28E8174E00F9D97F /* Debug */,
+				CE81DC9028E8174E00F9D97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE81DC9128E8174E00F9D97F /* Build configuration list for PBXNativeTarget "Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE81DC9228E8174E00F9D97F /* Debug */,
+				CE81DC9328E8174E00F9D97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE81DC7B28E8174D00F9D97F /* Project object */;
+}
